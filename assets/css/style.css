@@ -1,0 +1,220 @@
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header style code start */
+/* ---------------------------------------------------------------- */
+/* contact nav css code start */
+
+.navtop {
+  background-color: #000000;
+  max-width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 2px;
+  align-items: center;
+}
+
+.navtop .number {
+  margin-left: 5px;
+  color: white;
+  padding: 2px;
+
+}
+
+.navtop .email {
+  margin-left: 5px;
+  color: white;
+  padding: 2px;
+}
+
+.navtop a {
+  font-size: small;
+  color: white;
+  text-decoration: none;
+
+}
+
+
+
+/* contact nav css code End */
+
+/* main banner css code start */
+.mainbanner {
+  background-color: rgb(255, 255, 255);
+
+  max-width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.banerimg {
+  border: 2px solid rgb(255, 255, 255);
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.banerimg img {
+  max-width: 100%;
+
+}
+
+/* main banner css code end */
+
+/* main navbar code start */
+.navbar {
+  background-color: black;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+  padding: 10px;
+
+
+
+}
+
+.navbar .row {
+  display: inline;
+}
+
+/* main navbar code end */
+
+/* about css code start */
+
+#about {
+  background-color: rgb(230, 226, 221);
+  padding-bottom: 30px;
+
+
+
+}
+
+#about .title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#about .content {
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about .content .picture {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+
+  overflow: hidden;
+
+
+
+}
+
+#about .content .picture img {
+  max-height: 80%;
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#about .content .text {
+  display: flex;
+  flex-wrap: nowrap;
+
+  flex-direction: column;
+  max-height: 350px;
+  padding: 10px;
+
+  overflow: hidden;
+  padding: 30px;
+
+
+}
+
+#about .content .text p {
+  text-align: justify;
+
+
+}
+
+/* about css code end */
+/* principal desk code start */
+#principal {
+  background-color: #191b3d;
+}
+
+#principalabout p {
+  text-align: justify;
+  font-size: large;
+}
+
+#principalabout h3 {
+  text-align: center;
+}
+
+#principal .title h1 {
+  background-color: #191b3d;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+#principal .picture {
+  background-color: #191b3d;
+  display: flex;
+  justify-content: center;
+}
+
+#principal .picture img {
+  margin: 10px;
+  border-radius: 10px;
+}
+#principal .paragraph{
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%
+}
+
+
+/* principal desk code end */
+/* trade css code start */
+.container-sm .card{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container-sm{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+/* trade code end */
+/* footer code :start */
+.footer{
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
+/* footer code :end */
+
+/* header style code end */
